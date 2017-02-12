@@ -11,24 +11,28 @@ Programmer, webdeveloper and computer engineering student.
       Java<br>
       Javascript
   </dd>
-  
+</dl>
+<dl>  
   <dt>Frameworks</dt>
   <dd>Laravel (PHP)<br>
       Django (Python)<br>
       jQuery (Javascript)
   </dd>
-
+</dl>
+<dl>
   <dt>Databases</dt>
   <dd>MySQL <br>
       PostgreSQL
   </dd>
-  
+</dl>
+<dl>  
   <dt>OS</dt>
   <dd>Linux (Preferred)<br>
       Windows<br>
       Mac
   </dd>
-  
+</dl>
+<dl>  
   <dt>Frontend</dt>
   <dd>HTML<br>
       CSS<br>
