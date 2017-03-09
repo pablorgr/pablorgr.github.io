@@ -1,0 +1,63 @@
+{
+	"name":	"Pablo",
+	"lastName":	"Riutort Grande",
+	"age":	26,
+	"occupation":	"Programmer, developer",
+	"skills": [
+		{
+			"programming languages": [
+				{
+					"name":	"Python",
+					"frameworks":	["Django", "Flask"]
+				},
+				{
+					"name":	"Java",
+					"frameworks":	[]
+				},
+				{
+					"name":	"PHP",
+					"frameworks":	["Laravel"]
+				},
+				{
+					"name":	"Javascript",
+					"frameworks":	["jQuery"]
+				}
+			],
+			"preferred":	"Python"
+		},
+		{
+			"type":	"VCS",
+			"names":	["Git", "SVN"],
+			"preferred":	"Git"
+		},
+		{
+			"type":	"databases",
+			"names":	["MySQL", "PostgreSQL"],
+			"preferred":	null
+		},
+		{
+			"type":	"OS",
+			"names":	["Linux", "Windows", "Mac"],
+			"preferred":	"Linux"
+		}
+		{
+			"type":	"frontend",
+			"names":	["HTML","CSS","Bootstrap"],
+			"preferred":	null
+		}
+	],
+	
+	"contact":	{
+		"phone":	"(+34) 663 88 07 93",
+		"email":	"pablo.riutort@gmail.com",
+		"website":	"pabloriutort.github.io",
+		"address":	{
+			"street":	"Ca'n Baró nº9",
+			"flat":	"2nd floor, 2nd door",
+			"city":	"Palma de Mallorca",
+			"country":	"Spain",
+			"postalCode":	"07014"
+		},
+		"preferred"	:	"email"
+	}
+}
