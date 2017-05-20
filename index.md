@@ -1,10 +1,12 @@
 ## About
 
-Programmer, web developer and computer engineering student
+Programmer, web developer and computer engineering student.
 
 My main interests are web applications, videogames and security. I'm always working in some project.
 
 ## Skills
+
+At my work and other projects I prefer to work with a Linux distribution and with Git as a VCS
 
 <dl>
   <dt>Programming</dt>
@@ -38,5 +40,3 @@ My main interests are web applications, videogames and security. I'm always work
     Bootstrap
    </dd>
 </dl>
-
-At my work and other projects I prefer to work with a **Linux** distribution and with **Git** as a VCS.
