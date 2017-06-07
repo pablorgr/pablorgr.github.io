@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\usepackage[utf8]{inputenc}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\usepackage{fontspec}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{4cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Pablo} % Your first name
+\familyname{Riutort Grande} % Your last name
+
+
+\photo[70pt][0.4pt]{profile.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	INFO SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Información Personal}
+
+\cvitem{Dirección}{C/Ca'n Baró num. 9, 07014, Palma de Mallorca}
+\cvitem{Teléfono}{663880793}
+\cvitem{Email}{pablo.riutort@gmail.com}
+\cvitem{Fecha de nacimiento}{25 de Julio de 1990}
+\cvitem{Lugar de nacimiento}{Granada, España}
+\cvitem{Web}{\href{https://pabloriutort.github.io}{pabloriutort.github.io}}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\cventry{2010--Actualidad}{Grado en Ingeniería Informática}{Mención en Tecnologías de la Información}{Universitat de les Illes Balears}{UIB}{}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+
+\cventry{2013}{Ganador de la beca Talentum Startups}{\textsc{Telefónica}}{}{}{Talentum Startups es una beca para estudiantes que quieran mejorar la sociedad a travé de la tecnología. Los estudiantes seleccionados pueden desarrollar sus ideas en una Startup asociada al programa}
+
+\cventry{2013--2014}{Webdeveloper}{\textsc{Mola}}{Parc Bit}{}{Becado por Talentum Startups}
+
+\cventry{2014--2016}{Lead developer}{\textsc{Civitfun}}{Parc Bit}{}{}
+
+\subsection{Proyectos}
+
+\cvitem{Geniuzz}{Mantenimiento del portal compra y venta de minijobs online \href{https://www.geniuzz.com}{geniuzz.com}, principalmente en tareas de diseño}
+\cvitem{Zelebri}{Desarrollo de la web zelebri.com que ofrece experiencias gastronómicas exclusivas}
+\cvitem{Civitfun}{Desarrollo de la web \href{http://civitfun.com/en/}{civitfun.com} especialmente en tareas de backend, integraciones y diseño y mantenimiento de bases de datos}
+
+\pagebreak
+%------------------------------------------------
+%	SKILLZ
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades}
+\subsection{Programación}
+\cvitem{}{Python}
+\cvitem{}{Java}
+\cvitem{}{PHP}
+\cvitem{}{C}
+\cvitem{}{JavaScript}
+\vspace{0.1cm}
+\subsection{Bases de Datos}
+\cvitem{}{Diseño y creación de Bases de Datos, UML}
+\cvitem{}{MySQL}
+\cvitem{}{PostgreSQL}
+\vspace{0.1cm}
+\subsection{Frameworks}
+\cvitem{}{Laravel (PHP)}
+\cvitem{}{Django (Python)}
+\cvitem{}{Bootstrap (HTML, CSS, JavaScript)}
+\vspace{0.1cm}
+\subsection{Frontend}
+\cvitem{}{HTML5}
+\cvitem{}{CSS3}
+\cvitem{}{jQuery}
+\cvitem{}{AJAX}
+\vspace{0.1cm}
+\subsection{Sistemas Operativos}
+\cvitem{Favorito}{Linux}
+\cvitem{}{Windows}
+\cvitem{}{Mac OSX}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitem{Inglés}{Comprensión oral y escrita. Nivel de conversación alto}
+\cvitem{Español}{Lengua materna}
+\cvitem{Catalan}{Segunda lengua}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Datos de interés}
+\cvitem{2012}{Obtención del nivel de conocmiento de lengua extranjera (Inglés), UIB}
+\cvitem{}{Permiso de conducir tipo B}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
