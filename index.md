@@ -1,6 +1,6 @@
 ## About
 
-Programmer, web developer and computer engineering student.
+Computer engineer, programmer and web developer.
 
 My main interests are web applications, videogames and security. I'm always working in some project.
 
@@ -22,6 +22,7 @@ At my work and other projects I prefer to work with a Linux distribution and wit
   <dd>
      Laravel (PHP)<br>
      Django (Python)<br>
+     Flask (Python)<br>
      jQuery (Javascript)
   </dd>
 </dl>
@@ -29,6 +30,7 @@ At my work and other projects I prefer to work with a Linux distribution and wit
   <dt>Databases</dt>
   <dd>
     MySQL <br>
+    sqlite <br>
     PostgreSQL
   </dd>
 </dl>
