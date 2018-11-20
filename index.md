@@ -31,7 +31,6 @@ At my work and other projects I prefer to work with a Linux distribution and wit
   <dd>
     MySQL <br>
     sqlite <br>
-    PostgreSQL
   </dd>
 </dl>
 <dl>  
