@@ -6,38 +6,45 @@ My main interests are web applications, videogames and security. I'm always work
 
 ## Skills
 
-At my work and other projects I prefer to work with a Linux distribution and with Git as a VCS
-
 <dl>
   <dt>Programming</dt>
   <dd>
       Python<br>
-      PHP<br>
       Java<br>
-      Javascript
-  </dd>
-</dl>
-<dl>  
-  <dt>Frameworks</dt>
-  <dd>
-     Laravel (PHP)<br>
-     Django (Python)<br>
-     Flask (Python)<br>
-     jQuery (Javascript)
+      JavaScript
+      PHP<br>
   </dd>
 </dl>
 <dl>
   <dt>Databases</dt>
   <dd>
-    MySQL <br>
     sqlite <br>
+    MySQL
   </dd>
 </dl>
-<dl>  
+<dl>
+  <dt>Frameworks</dt>
+  <dd>
+     Flask (Python)<br>
+     Django (Python)<br>
+     Laravel (PHP)<br>
+     jQuery (Javascript)
+  </dd>
+</dl>
+<dl>
   <dt>Frontend</dt>
   <dd>
-    HTML<br>
-    CSS<br>
+    HTML/CSS<br>
     Bootstrap
+   </dd>
+</dl>
+<dl>
+  <dt>Others</dt>
+  <dd>
+    Git<br>
+    Linux<br>
+    REST<br>
+    JSON<br>
+    XML/SOAP
    </dd>
 </dl>
