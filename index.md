@@ -11,7 +11,7 @@ My main interests are web applications, videogames and security. I'm always work
   <dd>
       Python<br>
       Java<br>
-      JavaScript
+      JavaScript<br>
       PHP<br>
   </dd>
 </dl>
