@@ -28,7 +28,7 @@ My main interests are web applications, videogames and security. I'm always work
      Flask (Python)<br>
      Django (Python)<br>
      Laravel (PHP)<br>
-     jQuery (Javascript)
+     jQuery (JavaScript)
   </dd>
 </dl>
 <dl>
