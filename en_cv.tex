@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\usepackage[utf8]{inputenc}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\usepackage{fontspec}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{4cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Pablo} % Your first name
+\familyname{Riutort Grande} % Your last name
+
+
+\photo[70pt][0.4pt]{profile5.jpeg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	INFO SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Contact}
+
+\cvitem{Phone}{+34 693 948 133}
+\cvitem{Email}{pablo.riutort@gmail.com}
+\cvitem{Web}{\href{https://pabloriutort.github.io}{pabloriutort.github.io}}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{September 2019}{Information and Communication Technology Security Master's Degree (MISTIC)}{}{joint Open University of Catalonia, Autonomous University of Barcelona, Rovira and Virgili University}{}{}
+\cventry{}{Computer Engineering Degree}{mention in Information Technology}{University of the Balearic Islands}{}{}
+\cventry{}{EUROWEB+ scholarship}{Computer Science and Informatics}{Faculty of Electronic Engineering}{Univerity of Nis}{} % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2019}{Computer Engineer}{\textsc{TCT: True Solar Power}}{}{}{Working as a collaborator in a IoT project with Django and WebSockets.}
+\cventry{2019}{Developer}{\textsc{SMACH Team}}{Parc Bit}{}{
+\begin{itemize}
+\item Development of applications for Smach Z videogame console.
+\item Web development of smachz.com.
+\end{itemize}
+}
+
+\cventry{2017--2018}{Computer Engineer}{\textsc{SmartUIB}}{University of the  Balearic Islands}{}{Creation and development of projects framed into Smart Cities, energy efficiency and IoT.
+\begin{itemize}
+\item Web Services SOAP with OCPP protocol.
+\item Sensors and other services integrations with Python for Sentilo system.
+\item Elasticsearch and Kibana for data visualization.
+\item API development and dashboard for IoT device control.
+\end{itemize}
+}
+
+\cventry{2014--2016}{Lead developer}{\textsc{Civitfun}}{Parc Bit}{}{Web development of \href{http://civitfun.com/en/}{civitfun.com} focusing in backend, integrations, maintenance and design of databases.}
+
+\cventry{2013--2014}{Webdeveloper}{\textsc{Mola}}{Parc Bit}{Talentum Startups internship}{I started in web development thanks to an intership in a startup incubator were I worked in backend maintenance and project design.}
+
+
+\section{Metions \& Awards}
+\cventry{2013}{Talentum Startups internship}{\textsc{Telefonica}}{}{}{
+Talentum Startups is an intership for students allowing them to enjoy an enterpreneur experience along with the opportunity to improve society from a technologic perspective.}
+
+%------------------------------------------------
+%	SKILLZ
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+\cvitem{Programming}{Python, Java, JavaScript, PHP}
+\cvitem{Databases}{sqlite, MySQL}
+\cvitem{Frameworks}{Flask (Python), Django (Python), Laravel (PHP), jQuery (JavaScript)}
+\cvitem{Frontend}{HTML/CSS, Bootstrap, QML}
+\cvitem{}{Git, Linux, REST, JSON, XML/SOAP, MQTT}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitem{Spanish}{Native}
+\cvitem{Catalan}{Fluent}
+\cvitem{English}{Fluent}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies}
+\cvitem{}{Science and technology}
+\cvitem{}{Cinema and movies}
+\cvitem{}{TV Shows}
+\cvitem{}{Board Games}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Other}
+\cvitem{}{Willing to relocate and travel for business}
+\cvitem{}{Driving license}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
