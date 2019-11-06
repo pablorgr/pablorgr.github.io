@@ -25,17 +25,18 @@ My main interests are web applications, videogames and security. I'm always work
 <dl>
   <dt>Frameworks</dt>
   <dd>
-     Flask (Python)<br>
-     Django (Python)<br>
-     Laravel (PHP)<br>
-     jQuery (JavaScript)
+     Flask<br>
+     Django<br>
+     Laravel<br>
+     jQuery
   </dd>
 </dl>
 <dl>
   <dt>Frontend</dt>
   <dd>
     HTML/CSS<br>
-    Bootstrap
+    Bootstrap<br>
+    QML
    </dd>
 </dl>
 <dl>
@@ -45,6 +46,8 @@ My main interests are web applications, videogames and security. I'm always work
     Linux<br>
     REST<br>
     JSON<br>
-    XML/SOAP
+    XML<br>
+    SOAP<br>
+    MQTT
    </dd>
 </dl>
